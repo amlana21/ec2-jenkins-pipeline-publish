@@ -89,4 +89,6 @@ Now that we have seen how to run the pipeline, this example is only deploying an
 This example uses a custom Nginx image which I have created and pushed to Docker hub. If other custom images are needed, you can go ahead and create and push to Docker hub. Then the CHEF recipe need to be modified to use the new image so that it can launch the specific container.
 
 
-## Conclusion
+## Conclusion  
+In this post I have explained a process to setup a Jenkins pipeline which will automate the launch of instance on EC2 and bootstrap the same.This will be useful for some of you who need a way to quickly get an instance up and running for personal projects. With proper changes and customizations, this can also be used in proper project scenarios.There is a wide scope to customize this and support more environment types like NodeJS, Tomcat etc with more DOcker images and CHEF recipes.  
+For any issues or questions, please reach out to me at amlanc@achakladar.com.
