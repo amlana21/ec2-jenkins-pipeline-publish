@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+cookbook 'git', '~> 9.0.1'
+cookbook 'docker', '~> 4.9.2'
+cookbook 'nodejs', '~> 6.0.0'
+metadata

@@ -1,0 +1,13 @@
+{
+    "name": "nginxserver",
+    "description": "To configure PROD",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[git::default]","recipe[prepare_env::ec2nginx]"
+    ]
+}
